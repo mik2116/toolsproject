@@ -73,7 +73,7 @@ class Tracker(models.Model):
         choices = LOCATION_CHOICES,
         null = True,
         )
-    specific_Location = models.CharField(
+    specific_location = models.CharField(
         help_text = ('Specific Location'),
         max_length = 50,
         null = True,
